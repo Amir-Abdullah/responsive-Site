@@ -1,0 +1,68 @@
+/* for phone screen */
+@media only screen and (max-width: 690px){
+    body{
+        background-color: rgb(199, 227, 253);
+    }
+    .mobile{
+        display: block;
+    }
+    /* first part */
+    nav{
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+    #m-left,#m-right{
+        font-size: 30px;
+    }
+    #m-left{
+        display: flex;
+    }
+    #m-left:hover{
+        translate: 45px 25px;
+    }
+    #m-hide{
+        display: none;
+    }
+    /* main part */
+
+    /* 1st section  */
+    .section-1{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 15px;
+    }
+    .section-1 img{
+        height: 100%;
+        width: 100%;
+    }
+    #left-info>p:hover{
+        transform: scale(1,1);
+
+    }
+}
+/* for tablet screen  */
+@media only screen and (min-width: 691px) and (max-width: 1000px){
+    body{
+        background-color: rgb(228, 253, 170);
+    }
+    .mobile{
+        display: block;
+    }
+    /* first part */
+    nav{
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+    #m-left,#m-right{
+        font-size: 30px;
+    }
+    #m-hide{
+        display: none;
+    }
+    /* main part */
+
+    /* 1st section  */
+}
