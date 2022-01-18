@@ -93,6 +93,8 @@
 @media only screen and (min-width: 691px) and (max-width: 1000px){
     body{
         background-color: rgb(228, 253, 170);
+        min-width: 701;
+        max-width: 1000;
     }
     .mobile{
         display: block;
@@ -110,6 +112,16 @@
         display: none;
     }
     /* main part */
-
+    /* 1st section  */
+    .section-1{
+        display: flex;
+        flex-direction: column;
+    }
+    /* 1st section  */
+    /* 3rd section  */
+    .section-3{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
     /* 1st section  */
 }
