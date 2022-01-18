@@ -119,12 +119,6 @@ nav{
     margin-top: 100px;
     text-align: center;
 }
-.section-3 div{
-    margin: 20px;
-    padding: 20px;
-    border-radius: 10px;
-    background-color: whitesmoke;
-}
 .section-3 div:hover{
     transform: scale(1.06,1.06);
     transition: transform 0.5s ease-in-out;
@@ -135,8 +129,11 @@ nav{
 .store{
     display: flex;
     flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: whitesmoke;
 }
-
 .star{
     color: #FB8200;
 }
@@ -202,7 +199,7 @@ hr{
 ------------------------------------*/
 .foot{
     margin-top: 100px;
-    background-color: #0A0826;
+    background-color: #0b0a20;
     color: white;
     display: flex;
     text-align: center;
